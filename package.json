@@ -1,0 +1,21 @@
+{
+  "name": "social-ping-server",
+  "author": "Stefano Armenes <stefano.armenes@gmail.com>",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stearm/social-ping-server.git"
+  },
+  "dependencies": {
+    "joi": "^10.4.1",
+    "socket.io": "^1.7.3"
+  },
+  "now": {
+    "alias": ["social-ping-server"]
+  }
+}
